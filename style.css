@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: large;
+    background-color: black;
+}
+header a{
+    color: white;
+    padding: 0 1%;
+    text-decoration: none;
+    font-size: 30px;
+}
+.center{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.titulo{
+    margin: 30px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.titulo:first-of-type{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
