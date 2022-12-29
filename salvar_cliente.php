@@ -17,7 +17,7 @@
         // CREATE CLIENTE
         if($conn->query($sql) === TRUE){
             //RETURN CLIENTE ID   
-            $last_id = $coon->insert_id;
+            $last_id = $conn->insert_id;
 
             // CREATE MOVIMENTAÇÃO
             $sql3 = "INSERT INTO movimentacao VALUES('{$last_id}', '{$cliente}', '', '', '')";
