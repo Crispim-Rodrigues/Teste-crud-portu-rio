@@ -1,6 +1,7 @@
 # Teste-crud-portu-rio
 
 para o codigo funcionar precisa atualizar o config.php e criar um banco de dados com o nome porto.
+E depois deixar o id da movimentação como chave estrangeira.
 
 #codigo para criar a database
 
