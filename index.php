@@ -122,7 +122,7 @@
                     echo "<td colspan='2'>" .$result->num_rows. "</td>";
                     echo "</tr>";
                 }else{
-                    echo "Null";
+                    echo "Sem informação";
                 }
             
             

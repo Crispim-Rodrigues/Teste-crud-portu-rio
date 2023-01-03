@@ -21,13 +21,13 @@
 <form method="POST" action="editar_cliente_action.php">
         <input type="hidden" name="id" value='<?=$cliente['id'] ?>'>
     <label>
-        Cliente: <input required="required"  type="text" name="cliente" pattern="[A-Za-z]{4,20}" value='<?=$cliente['cliente']?>'>
+        Cliente: <input required="required"  type="text" maxlength="20" name="cliente" pattern="[A-Za-z]{4,20}" value='<?=$cliente['cliente']?>'>
     </label>
     <label>
-        Prefixo: <input required="required"  type="text" name="prefixo" pattern="[A-Z]{4}" title="TEM QUE TER 4 LETRAS" value='<?=$cliente['prefixo']?>'>
+        Prefixo: <input required="required"  type="text" maxlength="4" name="prefixo" pattern="[A-Z]{4}" title="TEM QUE TER 4 LETRAS" value='<?=$cliente['prefixo']?>'>
     </label>
     <label>
-        Placa: <input required="required"  type="number" name="placa" pattern="[0-9]{7}" title="TEM QUE TER 7 NUMEROS" value='<?=$cliente['placa']?>'>
+        Placa: <input required="required"  type="text" maxlength="7" name="placa" pattern="[0-9]{7}" title="TEM QUE TER 7 NUMEROS" value='<?=$cliente['placa']?>'>
     </label>
     <label>
         <select required="required" name="tipo" value='<?=$cliente['tipo']?>'>
